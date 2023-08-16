@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://cdn.akamai.steamstatic.com/store/promo/summer2023/Steam_Summer_Sale_pattern-04-day_lighter.gif?v=2);
+  min-height: 100vh;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 140px;
+  width: 30%;
+  transition: 0.2s;
+}
+
+img:first-of-type {
+  transform: scale(1.2);
+}
+
+img:hover {
+  transform: scale(1.5)
+}
+
+img:hover {
+  transform: scale(1.5)
+}
+
+.filter-form {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 30px;
+}
+
+.search-input {
+  background-color:rgb(30, 48, 102);
+  border: none;
+  padding: 10px;
+  min-width: 30%;
+  margin-right: 30px;
+  color: white;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.397);
+}
+
+.game-gallery {
+  margin: 30px;
+}
+
+.filterable-game-list {
+  min-height: 450px;
+  max-width: 960px;
+  margin: 50px auto;
+}
+
+.game-category {
+  font-size: 1.5rem;
+  margin: 50px 0 30px 0;
+}
+
+.game-row {
+  position: relative;
+  padding: 30px 20px;
+  background-color: rgba(43, 43, 43, 0.3);
+  margin: 20px 0;
+}
+
+.game-in-whish-list {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.game-name {
+  font-size: 1.5rem;
+}
+
+.game-price {
+  padding: 10px 20px;
+  background-color:chartreuse;
+  font-weight: bold;
+  color: black;
+}
+
+.in-whish-list-checkbox {
+  margin-right: 5px;
+}
